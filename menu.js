@@ -102,13 +102,14 @@ console.log(pizza.popularity)
 //CODE HERE
 
 let foodArr = {
-    fruit: 'Apple',
-    veggie: 'Cucumber',
-    meat: 'Bacon',
-    rank: 1
-
+    name: 'The Black Pearl',
+    price: 10.99,
+    category: ' Bacon',
+    scale: 10,
+    ranking: 2,
+    tag: ['this pizza ', ]
 }
-//console.log(foodArr)
+console.log(foodArr)
 
 //////////////////PROBLEM 4////////////////////
 /* 
@@ -125,7 +126,7 @@ let foodArr = {
 //CODE HERE
  
 
- const filteredFood = foodArr.filter()
+foodArr.filter(foodArr)
 
 
 

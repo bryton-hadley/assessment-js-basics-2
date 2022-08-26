@@ -102,11 +102,9 @@ console.log(pizza.popularity)
 //CODE HERE
 
 let foodArr = {
-
-    name: ' The Captain Jack',
-    prices: 12.99,
-    category: ' Meat lovers specail',
-    flavor: 10,
+    fruit: 'Apple',
+    veggie: 'Cucumber',
+    meat: 'Bacon',
     rank: 1
 
 }

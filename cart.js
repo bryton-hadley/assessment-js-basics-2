@@ -55,6 +55,10 @@ const cart = [
 
 //CODE HERE
 
+function calcFinalPrice(){
+    
+}
+
 
 
 //////////////////PROBLEM 3////////////////////

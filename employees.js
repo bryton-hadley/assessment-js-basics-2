@@ -20,6 +20,11 @@
 */
 
 //CODE HERE
+class employee{
+    constructor(name, shift){
+        let getSchedule = []
+    }
+}
 
 
 

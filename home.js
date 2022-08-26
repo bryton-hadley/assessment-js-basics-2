@@ -55,7 +55,9 @@ const deliveryAreaZipCodes = [85205, 85204, 85203, 85213, 85206]
 
 //CODE HERE
 
+function canWeDeliver(zipCode){
 
+}
 
 /* 
     Problem 2 Continued
@@ -111,7 +113,9 @@ const deals = [
 */
 
 //CODE HERE
+let newDeal = title.replace(title('10% off!'))
 
+console.log(newDeal)
 
 
 /*
@@ -128,3 +132,4 @@ const deals = [
 */
 
 //CODE HERE
+

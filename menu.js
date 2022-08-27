@@ -105,56 +105,26 @@ let {category} = pizza
 
 //CODE HERE
 
-// let foodArr = {
-//     name: 'The Black Pearl',
-//     price: 10.99,
-//     category: ' Bacon',
-//     scale: 10,
-//     ranking: 2,
-//     tag: ['this pizza ', ]
-// }
-// console.log(foodArr)
-const foodArr = [
+const foodArr = [ 
     {
-        name: 'pizza', 
-        price: 9.99, 
-        category: 'entree', 
-        popularity: 1, 
-        rating: 4.7, 
-        tags: ['customer favorite', 'kids', 'gluten-free option']
-    }, 
-    {
-        name: 'pasta', 
-        price: 8.99, 
-        category: 'entree', 
-        popularity: 3, 
-        rating: 4.8, 
-        tags: ['customer favorite']
-    }, 
-    {
-        name: 'salad', 
-        price: 7.99, 
-        category: 'side', 
-        popularity: 4, 
-        rating: 4.4, 
-        tags: ['gluten-free option']
-    }, 
-    {
-        name: 'cookie', 
-        price: 2.99, 
-        category: 'dessert', 
-        popularity: 2, 
-        rating: 5.0, 
-        tags: ['customer favorite', 'kids']
-    }, 
-    {
-        name: 'breadsticks', 
-        price: 6.99, 
-        category: 'side', 
-        popularity: 5, 
-        rating: 4.6, 
-        tags: ['customer favorite', 'kids']
-    }
+    name: 'The Black Pearl Pasta',
+    price: 10.99,
+    category: 'entree',
+    scale: 10,
+    ranking: 2,
+    tag: ['2nd most popular item','Adult & Kids','Vegan option']
+},
+{
+    name: '',
+    price: 10.99,
+    category: 'entree',
+    scale: 10,
+    ranking: 2,
+    tag: ['2nd most popular item','Adult & Kids','Vegan option']
+
+
+}
+
 ]
 //////////////////PROBLEM 4////////////////////
 /* 

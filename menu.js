@@ -115,16 +115,40 @@ const foodArr = [
     tag: ['2nd most popular item','Adult & Kids','Vegan option']
 },
 {
-    name: '',
-    price: 10.99,
+    name: 'The Flying Dutchman',
+    price: 16.99,
     category: 'entree',
-    scale: 10,
-    ranking: 2,
-    tag: ['2nd most popular item','Adult & Kids','Vegan option']
+    scale: 8.5,
+    ranking: 3,
+    tag: ['3rdd most popular item','Adult','Gluten-free option']
 
 
+},
+{
+
+    name: 'BarBossa',
+    price: 13.00,
+    category: 'Drink',
+    scale: 9.8,
+    ranking: 1,
+    tag: ['Most popular drink','Adult','Non Alcohol option']
+},
+{
+    name: 'Black Beard',
+    price: 6.00,
+    category: 'Disseret',
+    scale: 7.5,
+    ranking: 4,
+    tag: ['Chocolate Moon Cake','Adult & kids','GLuten-free option']
+},
+{
+    name: '',
+    price: ,
+    category: '',
+    scale: ,
+    ranking: ,
+    tag: ['','','']
 }
-
 ]
 //////////////////PROBLEM 4////////////////////
 /* 

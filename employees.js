@@ -137,7 +137,7 @@ const managers = new manager('Winston', 'weekday mornings, weekday afternoons', 
 
 //CODE HERE
 
-manager.getEmployees()
+//manager.getEmployees()
 
 /*
     Call the `addEmployee` method on the 

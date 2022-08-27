@@ -92,7 +92,17 @@ const calcFinalPrice = (cartTotal, couponValue, tax) => {
 */
 
 /*
-    TEXT ANSWER HERE
+    TEXT ANSWER HERE 
+
+I will create an object called 'firstCustomer'
+this object that has 6 properties:
+
+        -firstName: (string) - I chose this so the customer knows that it is there cart and that they are only paying for there food 
+        -lastname: (string) - i chose this to make it even more clear that it is the costumers cart
+        -address: (string) - i need this to log the right bank info to make sure it is the right person and that we can deliver there
+        -cardinfo: (number) - need this to charge the card and to make sure its not a fake card 
+        -product: (string) -  i need this to check that it is the right order  
+        -Total: (number) - i need this to show the costomer the total price so that they dont think they are getting charged more then what they ordered 
 
 */
 
@@ -106,6 +116,10 @@ const calcFinalPrice = (cartTotal, couponValue, tax) => {
 const firstCustomer = {
     firstName: 'Bryton',
     lastName: "Hadley",
-    address: '300 N 5000 East'
+    address: '300 N 5000 East',
+    cardInfo: 123456789,
+    product: 'The Captain Jack',
+    price: 12.999
     
 }
+console.log(firstCustomer)

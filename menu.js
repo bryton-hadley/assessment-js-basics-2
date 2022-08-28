@@ -142,12 +142,12 @@ const foodArr = [
     tag: ['Chocolate Moon Cake','Adult & kids','GLuten-free option']
 },
 {
-    name: '',
-    price: ,
-    category: '',
-    scale: ,
-    ranking: ,
-    tag: ['','','']
+    name: 'Will Turner',
+    price: 9.75,
+    category: 'Drink',
+    scale: 8.2,
+    ranking: 5,
+    tag: ['2nd most popular drink','Adult & kids','Non Alcohol option']
 }
 ]
 //////////////////PROBLEM 4////////////////////
@@ -164,10 +164,10 @@ const foodArr = [
 
 //CODE HERE
  
-const filteredFood = foodArr.filter((food) => food.tags.filter)
+ const filteredFood = foodArr.filter((food) => food.tag.includes('Adult'))
 
 // const filteredFood = foodArr.filter((food) => {
-//     if(food.tags.includes('kids')){
+//     if(food.tags.includes('Drink')){
 //         return food
 //     }
 // })
